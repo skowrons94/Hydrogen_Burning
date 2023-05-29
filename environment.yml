@@ -1,0 +1,12 @@
+name: cpg-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy=1.17.4
+  - pip
+  - pip:
+    - scipy
+    - matplotlib
+    - ipympl
+    - pynucastro
